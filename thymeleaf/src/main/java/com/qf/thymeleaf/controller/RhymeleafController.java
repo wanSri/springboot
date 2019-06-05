@@ -27,6 +27,7 @@ public class RhymeleafController {
         list.add(new Teacher(2,"王喜",19));
         model.addAttribute("list",list);
         model.addAttribute("teacher",teacher);
+        System.out.println("hello");
         return "ok";
     }
 
