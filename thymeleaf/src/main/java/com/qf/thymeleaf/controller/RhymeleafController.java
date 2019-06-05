@@ -3,10 +3,8 @@ package com.qf.thymeleaf.controller;
 import com.qf.thymeleaf.pojo.Teacher;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.jws.WebParam;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,5 +28,4 @@ public class RhymeleafController {
         System.out.println("hello");
         return "ok";
     }
-
 }
